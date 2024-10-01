@@ -1,0 +1,45 @@
+.responsive-box {
+width: 40vw; /* Kotak ini akan memiliki lebar 50% dari viewport */
+height: 60vh; /* Tinggi tetap 200px */
+position: absolute;
+top: 30%;
+left: 10%;
+padding-left: 20px;
+padding-top: 50px;
+background-color: #f28848; /* Warna latar belakang */
+line-height: 200px; /* Menyelaraskan teks secara vertikal */
+text-align: left; /* Teks di tengah */
+font-size: 2.5em; /* Ukuran font 5% dari lebar viewport */
+  }
+  /* Styling tombol */
+.download-btn {
+  display: block;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  color: white;
+  background-color: #f9bf9c;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.download-btn:hover {
+  background-color: #a8460b;
+}
+
+.posisi_download{
+  position: relative;
+  top: 50 %;
+  lef: 30%
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #007bff; /* Warna tombol */
+    color: white; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding dalam tombol */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    border-radius: 5px; /* Sudut membulat tombol */
+    margin-top: 20px; /* Jarak di atas tombol */
+}
